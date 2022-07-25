@@ -7,7 +7,6 @@ permalink: /revanced-on-android/
 ## Prerequisites
 Firstly, you have to install the following terminal emulator:
 <br>
-<br>
 [Termux](https://github.com/termux/termux-app) (GitHub link) <br>
  OR <br>
 [Termux](https://f-droid.org/en/packages/com.termux) (F-Droid link)<br>
