@@ -1,6 +1,11 @@
+plugins:
+  - jekyll-feed
+
 header_pages:
   - index.md
   - pages/mirrors.md
 
-
-footer: 'follow on <a href="https://twitter.com/0x7C2f">twitter</a>'
+footer: 
+  - 'follow on <a href="https://twitter.com/0x7C2f">twitter</a>'
+  - '|'
+  - '<a href="feed.xml">RSS Feed</a>'
