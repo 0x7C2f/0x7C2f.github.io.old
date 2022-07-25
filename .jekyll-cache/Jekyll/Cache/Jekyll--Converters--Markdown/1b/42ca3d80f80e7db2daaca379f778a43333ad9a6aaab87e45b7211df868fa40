@@ -1,0 +1,251 @@
+I"P<<h2 id="prerequisites">Prerequisites</h2>
+<p>Firstly, you have to install the following terminal emulator:
+<br />
+<br />
+Termux](https://github.com/termux/termux-app) (GitHub link) <br />
+ OR <br />
+<a href="https://f-droid.org/en/packages/com.termux">Termux</a> (F-Droid link)<br />
+<br />
+Secondly, be sure to be in the termux ~/ directory when running the commands below.</p>
+
+<h2 id="installation">Installation</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>termux-setup-storage
+apt update
+apt upgrade
+apt install wget nodejs-lts openjdk-17 -y
+wget https://github.com/reisxd/revanced-builder/archive/refs/heads/cli.zip
+unzip cli.zip
+cd revanced-builder-cli
+npm i
+node .
+</code></pre></div></div>
+
+<p>After running <code class="language-plaintext highlighter-rouge">node .</code>, revanced-builder will install OpenJDK 17 if its missing and also aapt2.</p>
+
+<p>You now can build ReVanced with revanced-builder!</p>
+
+<h2 id="revanced-patches">ReVanced Patches</h2>
+
+<p>🧩 <a href="https://github.com/revanced/revanced-patches/blob/main/README.md">Official patches by ReVanced</a></p>
+
+<h3 id="list-of-available-patches">List of available patches</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">💊 Patch</th>
+      <th style="text-align: center">📜 Description</th>
+      <th style="text-align: center">🎯 Target Package</th>
+      <th style="text-align: center">🏹 Target Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">minimized-playback-music</code></td>
+      <td style="text-align: center">Enables minimized playback on Kids music.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.apps.youtube.music</code></td>
+      <td style="text-align: center">5.14.53</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">tasteBuilder-remover</code></td>
+      <td style="text-align: center">Removes the “Tell us which artists you like” card from the home screen.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.apps.youtube.music</code></td>
+      <td style="text-align: center">5.14.53</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">hide-get-premium</code></td>
+      <td style="text-align: center">Removes all “Get Premium” evidences from the avatar menu.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.apps.youtube.music</code></td>
+      <td style="text-align: center">5.14.53</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">compact-header</code></td>
+      <td style="text-align: center">Hides the music category bar at the top of the homepage.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.apps.youtube.music</code></td>
+      <td style="text-align: center">5.14.53</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">upgrade-button-remover</code></td>
+      <td style="text-align: center">Removes the upgrade tab from the pivot bar.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.apps.youtube.music</code></td>
+      <td style="text-align: center">5.14.53</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">background-play</code></td>
+      <td style="text-align: center">Enables playing music in the background.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.apps.youtube.music</code></td>
+      <td style="text-align: center">5.14.53</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">music-video-ads</code></td>
+      <td style="text-align: center">Removes ads in the music player.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.apps.youtube.music</code></td>
+      <td style="text-align: center">5.14.53</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">codecs-unlock</code></td>
+      <td style="text-align: center">Adds more audio codec options. The new audio codecs usually result in better audio quality.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.apps.youtube.music</code></td>
+      <td style="text-align: center">5.14.53</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">exclusive-audio-playback</code></td>
+      <td style="text-align: center">Enables the option to play music without video.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.apps.youtube.music</code></td>
+      <td style="text-align: center">5.14.53</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">swipe-controls</code></td>
+      <td style="text-align: center">Adds volume and brightness swipe controls.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">seekbar-tapping</code></td>
+      <td style="text-align: center">Enables tap-to-seek on the seekbar of the video player.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">minimized-playback</code></td>
+      <td style="text-align: center">Enables minimized and background playback.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">amoled</code></td>
+      <td style="text-align: center">Enables pure black theme.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">disable-create-button</code></td>
+      <td style="text-align: center">Hides the create button in the navigation bar.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">hide-cast-button</code></td>
+      <td style="text-align: center">Hides the cast button in the video player.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">all</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">return-youtube-dislike</code></td>
+      <td style="text-align: center">Shows the dislike count of videos using the Return YouTube Dislike API.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">hide-autoplay-button</code></td>
+      <td style="text-align: center">Hides the autoplay button in the video player.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">premium-heading</code></td>
+      <td style="text-align: center">Shows premium branding on the home screen.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">all</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">custom-branding</code></td>
+      <td style="text-align: center">Changes the YouTube launcher icon to be ReVanced’s.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">all</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">disable-fullscreen-panels</code></td>
+      <td style="text-align: center">Disables video description and comments panel in fullscreen view.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">old-quality-layout</code></td>
+      <td style="text-align: center">Enables the original quality flyout menu.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">hide-shorts-button</code></td>
+      <td style="text-align: center">Hides the shorts button on the navigation bar.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">hide-watermark</code></td>
+      <td style="text-align: center">Hides creator’s watermarks on videos.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">sponsorblock</code></td>
+      <td style="text-align: center">Integrate SponsorBlock.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">enable-wide-searchbar</code></td>
+      <td style="text-align: center">Replaces the search icon with a wide search bar. This will hide the YouTube logo when active.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">force-vp9-codec</code></td>
+      <td style="text-align: center">Forces the VP9 codec for videos.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">autorepeat-by-default</code></td>
+      <td style="text-align: center">Enables auto repeating of videos by default.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">microg-support</code></td>
+      <td style="text-align: center">Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">enable-debugging</code></td>
+      <td style="text-align: center">Enables app debugging by patching the manifest file.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">all</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">custom-playback-speed</code></td>
+      <td style="text-align: center">Adds more video playback speed options.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">hdr-auto-brightness</code></td>
+      <td style="text-align: center">Makes the brightness of HDR videos follow the system default.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">video-ads</code></td>
+      <td style="text-align: center">Removes ads in the video player.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">general-ads</code></td>
+      <td style="text-align: center">Removes general ads.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">hide-infocard-suggestions</code></td>
+      <td style="text-align: center">Hides infocards in videos.</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">com.google.android.youtube</code></td>
+      <td style="text-align: center">17.27.39</td>
+    </tr>
+  </tbody>
+</table>
+
+:ET
