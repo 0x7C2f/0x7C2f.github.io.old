@@ -2,13 +2,4 @@ header_pages:
   - index.md
   - about.md
 
-collections:
-  pages:
-    output: true
-    permalink: /:collection/:title
-  posts:
-    output: true
-    permalink: /:collection/:title
-
 footer: 'follow us on <a href="https://twitter.com/0x7C2f">twitter</a>'
-
