@@ -1,7 +1,7 @@
 ---
 title: 'Revanced on Android'
 layout: post
-permalink: revanced-on-android
+permalink: /revanced-on-android/
 ---
 
 ## Prerequisites
