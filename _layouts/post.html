@@ -5,11 +5,9 @@ layout: default
 
 
 {% assign author = site.data.authors[page.author] %}
-
-
 {% if author %}
     <span>
         <!-- Personal Info. -->
-        Written by <a href="{{ author.web }}">{{ author.name }}</a>
+        Written by <a href="{{ author.twitter }}">{{ author.name }}</a>
     </span>
 {% endif %}
