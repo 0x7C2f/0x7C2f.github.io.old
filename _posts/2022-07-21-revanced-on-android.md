@@ -2,6 +2,7 @@
 title: 'Revanced on Android'
 layout: post
 permalink: /revanced-on-android/
+author: '0x7C2f'
 ---
 
 ## Prerequisites
@@ -34,11 +35,11 @@ You now can build ReVanced with revanced-builder!
 
 ## ReVanced Patches
  
-🧩 [Official patches by ReVanced](https://github.com/revanced/revanced-patches/blob/main/README.md)
+馃З [Official patches by ReVanced](https://github.com/revanced/revanced-patches/blob/main/README.md)
  
 ### List of available patches
  
-| 💊 Patch | 📜 Description | 🎯 Target Package | 🏹 Target Version |
+| 馃拪 Patch | 馃摐 Description | 馃幆 Target Package | 馃徆 Target Version |
 |:--------:|:--------------:|:-----------------:|:-----------------:|
 | `minimized-playback-music` | Enables minimized playback on Kids music. | `com.google.android.apps.youtube.music` | 5.14.53 |
 | `tasteBuilder-remover` | Removes the "Tell us which artists you like" card from the home screen. | `com.google.android.apps.youtube.music` | 5.14.53 |

@@ -2,3 +2,14 @@
 layout: default
 ---
 {{ content }}
+
+
+{% assign author = site.data.authors[page.author] %}
+
+
+{% if author %}
+    <span>
+        <!-- Personal Info. -->
+        Written by <a href="{{ author.web }}">{{ author.name }}</a>
+    </span>
+{% endif %}
