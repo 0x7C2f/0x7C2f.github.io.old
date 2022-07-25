@@ -1,9 +1,6 @@
 ---
+title: 'revanced-on-android'
 layout: post
-tags: android 
-categories: android
-permalink: revanced-on-android.html
-title: 'How to use revanced builder on Android'
 ---
 
 ## Prerequisites
