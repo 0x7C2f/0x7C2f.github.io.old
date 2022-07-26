@@ -10,6 +10,11 @@ LANG=C git -c color.status=false status \
 git push -f
 
 github_changelog_generator \
-    -u 0x7C2f \
-    -p 0x7C2f.github.io \
-    --output pages/changelog.md
+    --user 0x7C2f \
+    --project 0x7C2f.github.io \
+    --output pages/changelog.md \
+    --header-label "---
+title: Changelog
+layout: page
+permalink: /changelog/
+---"
