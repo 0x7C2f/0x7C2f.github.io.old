@@ -21,7 +21,7 @@ jobs:
         rake changelog
     - name: Github Actions
       run: |
-        git remote set-url origin/gh-pages '${{ secrets.SSH_URL }}'
+        git remote set-url origin '${{ secrets.SSH_URL }}'
         git config --local user.email "automation@runthisboi.com"
         git config --local user.name "0x7C2f"
         git status
