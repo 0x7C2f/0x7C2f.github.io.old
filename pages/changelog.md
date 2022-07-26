@@ -1,8 +1,8 @@
 ---
-  title: Changelog
-  layout: page
-  permalink: /changelog/
-  ---
+title: Changelog
+layout: page
+permalink: /changelog/
+---
 
 
 
