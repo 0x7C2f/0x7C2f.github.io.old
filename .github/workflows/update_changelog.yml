@@ -27,4 +27,4 @@ jobs:
         git status
         git add .
         git commit -am "Changelog Release"
-        git push origin HEAD:gh-pages
+        git push
