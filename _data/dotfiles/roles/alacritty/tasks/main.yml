@@ -7,3 +7,5 @@
   template:
     dest: $HOME/.config/alacritty/alacritty.yml
     src: alacritty.j2
+    owner: mrgrim
+    group: mrgrim

@@ -1,4 +1,7 @@
-- name: i3
-  template:
-    dest: $HOME/.config/i3/config
-    src: config.j2
+- name: Create a symbolic link
+  ansible.builtin.file:
+    src: /files/config
+    dest: ~/.config/i3
+    owner: mrgrim
+    group: mrgrim
+    state: link

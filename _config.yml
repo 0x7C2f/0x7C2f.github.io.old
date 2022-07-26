@@ -8,6 +8,10 @@ header_pages:
   - pages/mirrors.md
   - pages/links.md
 
+exclude:
+  - "update.sh"
+  - "jekyll-theme-console.gemspec"
+
 footer: 
   - 'follow on <a href="https://twitter.com/0x7C2f">twitter</a>'
   - '|'
