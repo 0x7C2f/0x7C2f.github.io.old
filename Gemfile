@@ -4,5 +4,4 @@ gemspec
 gem 'webrick'
 gem 'jekyll-feed'
 gem 'jekyll-twitter-plugin'
-
 gem 'github_changelog_generator'
