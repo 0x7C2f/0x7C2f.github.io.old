@@ -8,3 +8,8 @@ LANG=C git -c color.status=false status \
             -e '/./p' \
 | git commit -F -
 git push -f
+
+github_changelog_generator \
+    -u 0x7C2f \
+    -p 0x7C2f.github.io \
+    --output pages/changelog.md
