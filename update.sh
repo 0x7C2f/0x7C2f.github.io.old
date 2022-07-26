@@ -1,3 +1,5 @@
+#!/bin/sh
+neocities push _site
 git add .
 LANG=C git -c color.status=false status \
 | sed -n -r -e '1,/Changes to be committed:/ d' \
