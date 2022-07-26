@@ -9,4 +9,4 @@ LANG=C git -c color.status=false status \
 | git commit -F -
 git push -f
 
-rake
+rake changelog
