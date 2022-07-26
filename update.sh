@@ -9,12 +9,4 @@ LANG=C git -c color.status=false status \
 | git commit -F -
 git push -f
 
-github_changelog_generator \
-    --user 0x7C2f \
-    --project 0x7C2f.github.io \
-    --output pages/changelog.md \
-    --header-label "---
-title: Changelog
-layout: page
-permalink: /changelog/
----"
+rake
