@@ -312,6 +312,7 @@ DEPENDENCIES
   github-pages
   github_changelog_generator
   jekyll-feed
+  jekyll-gist
   jekyll-theme-console!
   rake
   webrick
