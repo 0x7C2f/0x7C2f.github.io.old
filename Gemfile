@@ -2,7 +2,6 @@
 source "https://rubygems.org"
 ruby "3.0.4"
 gemspec
-
 group :jekyll_plugins do
     gem 'webrick'
     gem "jekyll-gist"
