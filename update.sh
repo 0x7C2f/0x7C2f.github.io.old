@@ -14,4 +14,4 @@ LANG=C git -c color.status=false status \
 git push -f origin HEAD:gh-pages
 #hub pull-request -h main
 
-#rake changelog
+rake changelog
