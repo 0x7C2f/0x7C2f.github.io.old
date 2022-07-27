@@ -1,7 +1,13 @@
 #!/bin/sh
-if [[ -d "_site" ]]; then
+if [ -d "_site" ]
+then
     neocities push _site
 fi
+if [ -f ".git/index.lock "]
+then
+    rm -f .git/index.lock
+fi
+
 git add .
 LANG=C git -c color.status=false status \
 | sed -n -r -e '1,/Changes to be committed:/ d' \
@@ -12,6 +18,4 @@ LANG=C git -c color.status=false status \
             -e '/./p' \
 | git commit -F -
 git push -f origin HEAD:gh-pages
-hub pull-request -h gh-pages
-
 rake changelog
