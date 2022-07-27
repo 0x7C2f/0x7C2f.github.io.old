@@ -10,6 +10,9 @@ permalink: /changelog/
 
 **Merged pull requests:**
 
+- renamed:    .github/workflows/update\_changelog.yml -\> .github\[not use… [\#4](https://github.com/0x7C2f/0x7C2f.github.io/pull/4) ([0x7C2f](https://github.com/0x7C2f))
+- added profile pictures to directory [\#3](https://github.com/0x7C2f/0x7C2f.github.io/pull/3) ([0x7C2f](https://github.com/0x7C2f))
+-     new file:   .gitlab-ci.yml [\#2](https://github.com/0x7C2f/0x7C2f.github.io/pull/2) ([0x7C2f](https://github.com/0x7C2f))
 - modified:   Gemfile [\#1](https://github.com/0x7C2f/0x7C2f.github.io/pull/1) ([0x7C2f](https://github.com/0x7C2f))
 
 
