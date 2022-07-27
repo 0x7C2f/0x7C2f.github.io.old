@@ -1,6 +1,6 @@
 #!/bin/sh
 if [[ -d "_site" ]]; then
-  neocities push _site
+    neocities push _site
 fi
 git add .
 LANG=C git -c color.status=false status \
@@ -12,6 +12,6 @@ LANG=C git -c color.status=false status \
             -e '/./p' \
 | git commit -F -
 git push -f origin HEAD:gh-pages
-#hub pull-request -h main
+hub pull-request -h main
 
 rake changelog
