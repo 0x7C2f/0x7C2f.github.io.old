@@ -1,9 +1,9 @@
 #!/bin/sh
-if [ -d "_site" ]
+if [ -d "_site" ];
 then
     neocities push _site
 fi
-if [ -f ".git/index.lock"]
+if [ -f ".git/index.lock"];
 then
     rm -f .git/index.lock
 fi
