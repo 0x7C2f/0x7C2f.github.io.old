@@ -1,5 +1,7 @@
 #!/bin/sh
-neocities push _site
+if [[ -d "_site" ]]; then
+  neocities push _site
+fi
 git add .
 LANG=C git -c color.status=false status \
 | sed -n -r -e '1,/Changes to be committed:/ d' \
@@ -8,7 +10,8 @@ LANG=C git -c color.status=false status \
             -e '/^Untracked files:/,$ d' \
             -e 's/^\s*//' \
             -e '/./p' \
-| git commit -F -
-git push -f origin HEAD:gh-pages
+| git commit -F -
+#git push -f origin HEAD:gh-pages
+#hub pull-request -h main
 
-rake changelog
+#rake changelog
