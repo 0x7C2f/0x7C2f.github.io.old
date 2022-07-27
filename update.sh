@@ -26,6 +26,7 @@ LANG=C git -c color.status=false status \
 echo -e "${RED}Pushing to repo and creating pull request${NOCOLOR}"
 git push \
 -o merge_request.create \
+-o merge_request.target=main \
 -o merge_request.remove_source_branch \
 origin HEAD:gh-pages
 echo -e "${RED}Updating changelog.md${NOCOLOR}"
