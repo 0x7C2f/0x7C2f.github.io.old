@@ -1,0 +1,27 @@
+{
+	"name": "0x7c2f.github.io",
+	"version": "1.0.0",
+	"description": "0x7C2f Jekyll Website",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/0x7C2f/0x7C2f.github.io.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/0x7C2f/0x7C2f.github.io/issues"
+	},
+	"homepage": "https://github.com/0x7C2f/0x7C2f.github.io#readme",
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		},
+		"emoji-cz": {
+			"path": "emoji-cz"
+		}
+	}
+}
