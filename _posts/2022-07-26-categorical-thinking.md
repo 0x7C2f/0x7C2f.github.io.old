@@ -2,7 +2,6 @@
 title: "Categorical Thinking"
 layout: post
 permalink: /categorical-thinking/
-author: "0x7C2f"
 ---
 
 # Categorical Thinking
