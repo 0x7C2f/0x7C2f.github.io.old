@@ -17,5 +17,8 @@ LANG=C git -c color.status=false status \
             -e 's/^\s*//' \
             -e '/./p' \
 | git commit -F -
-git push -f -o merge_request.create origin HEAD:gh-pages
+git push \
+-o merge_request.create \
+-o merge_request.remove_source_branch \
+origin HEAD:gh-pages
 rake changelog
