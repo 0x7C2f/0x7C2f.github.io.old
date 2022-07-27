@@ -10,7 +10,7 @@ LANG=C git -c color.status=false status \
             -e '/^Untracked files:/,$ d' \
             -e 's/^\s*//' \
             -e '/./p' \
-| git commit -F -
+| git commit -F -
 #git push -f origin HEAD:gh-pages
 #hub pull-request -h main
 
