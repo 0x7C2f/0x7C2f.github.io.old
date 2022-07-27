@@ -11,7 +11,7 @@ LANG=C git -c color.status=false status \
             -e 's/^\s*//' \
             -e '/./p' \
 | git commit -F -
-#git push -f origin HEAD:gh-pages
+git push -f origin HEAD:gh-pages
 #hub pull-request -h main
 
 #rake changelog
