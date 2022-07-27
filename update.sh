@@ -25,5 +25,5 @@ LANG=C git -c color.status=false status \
 | git commit -F -
 echo -e "${RED}Pushing to repo and creating pull request${NOCOLOR}"
 git push -f origin HEAD:gh-pages
-hub pull-request --force --no-edit --head 0x7C2f:main
+hub pull-request --force --no-edit --head 0x7C2f:gh-pages
 rake changelog
