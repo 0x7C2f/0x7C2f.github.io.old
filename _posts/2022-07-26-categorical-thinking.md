@@ -1,11 +1,11 @@
 ---
-title: "My Categorical Loop"
+title: "Categorical Thinking"
 layout: post
-permalink: /my-categorical-nightmare/
+permalink: /categorical-thinking/
 author: "0x7C2f"
 ---
 
-# My Categorical Nightmare
+# Categorical Thinking
 
 ---
 
