@@ -11,8 +11,9 @@ header_pages:
 exclude:
   - "update.sh"
   - "jekyll-theme-console.gemspec"
-  - Rakefile
-
+  - "Rakefile"
+  - "vendor/bundle"
+  - "node_modules"
 footer: 
   - 'follow on <a href="https://twitter.com/0x7C2f">Twitter</a>'
   - '|'
