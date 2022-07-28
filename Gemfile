@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby:'3.0.4'
+ruby:'3.1.2'
 gemspec
 
 group :jekyll_plugins do
