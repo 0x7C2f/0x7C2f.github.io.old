@@ -1,7 +1,7 @@
 plugins:
   - jekyll-feed
   - github_changelog_generator
-  - jekyll-twitter-plugin
+  - jekyll-tagging-related_posts
 
 header_pages:
   - index.md
