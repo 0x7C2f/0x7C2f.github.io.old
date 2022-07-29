@@ -8,4 +8,5 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'github_changelog_generator'
     gem 'jekyll-tagging-related_posts'
+    gem 'jekyll-mentions'
 end
