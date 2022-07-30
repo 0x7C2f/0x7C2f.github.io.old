@@ -3,6 +3,9 @@ plugins:
   - github_changelog_generator
   - jekyll-tagging-related_posts
   - jekyll-mentions
+  - jekyll-compose
+  - jekyll-redirect-from
+  - pluto
 header_pages:
   - index.md
   - pages/mirrors.md
@@ -14,9 +17,11 @@ exclude:
   - "Rakefile"
   - "vendor/bundle"
   - "node_modules"
+
 footer: 
   - 'follow on <a href="https://twitter.com/0x7C2f">Twitter</a>'
   - '|'
   - '<a href="feed.xml">RSS Feed</a>'
   - '|'
   - '<a href="/changelog/index.html">Changelog</a>'
+

@@ -9,4 +9,8 @@ group :jekyll_plugins do
     gem 'github_changelog_generator'
     gem 'jekyll-tagging-related_posts'
     gem 'jekyll-mentions'
+    gem 'jekyll-compose'
+    gem 'jekyll-redirect-from'
+    gem 'pluto'
 end
+
