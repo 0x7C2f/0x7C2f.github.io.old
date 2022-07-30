@@ -8,6 +8,10 @@ permalink: /changelog/
 
 [Full Changelog](https://github.com/0x7C2f/0x7C2f.github.io/compare/dacb658603e336bf3fb72cf6868d8d7485de4b66...HEAD)
 
+**Implemented enhancements:**
+
+- Updated update.sh script [\#5](https://github.com/0x7C2f/0x7C2f.github.io/pull/5) ([0x7C2f](https://github.com/0x7C2f))
+
 **Merged pull requests:**
 
 - renamed:    .github/workflows/update\_changelog.yml -\> .github\[not use… [\#4](https://github.com/0x7C2f/0x7C2f.github.io/pull/4) ([0x7C2f](https://github.com/0x7C2f))
