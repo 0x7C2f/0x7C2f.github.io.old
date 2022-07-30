@@ -1,5 +1,0 @@
-- name: Installing discord
-  package:
-    name:
-      - discord
-    extra_args: --noconfirm --needed

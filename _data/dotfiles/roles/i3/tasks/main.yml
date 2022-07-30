@@ -1,7 +1,0 @@
-- name: Create a symbolic link
-  ansible.builtin.file:
-    src: /files/config
-    dest: ~/.config/i3
-    owner: mrgrim
-    group: mrgrim
-    state: link

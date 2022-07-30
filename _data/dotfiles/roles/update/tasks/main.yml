@@ -1,5 +1,0 @@
-#- name: check updates
-#  pacman: 
-#    update_cache: yes
-#    upgrade: yes
-#  when: ansible_os_family == 'Archlinux'

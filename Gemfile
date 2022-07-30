@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby:'3.1.2'
+ruby:'3.0.4'
 gemspec
 
 group :jekyll_plugins do
@@ -11,6 +11,5 @@ group :jekyll_plugins do
     gem 'jekyll-mentions'
     gem 'jekyll-compose'
     gem 'jekyll-redirect-from'
-    gem 'pluto'
 end
 

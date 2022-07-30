@@ -1,5 +1,0 @@
-- name: Installing irssi
-  package:
-    name:
-      - irssi
-    extra_args: --noconfirm --needed

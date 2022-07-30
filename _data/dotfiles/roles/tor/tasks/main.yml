@@ -1,5 +1,0 @@
-- name: Installing tor
-  package:
-    name:
-      - tor
-    extra_args: --noconfirm --needed

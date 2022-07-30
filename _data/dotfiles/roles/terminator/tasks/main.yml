@@ -1,9 +1,0 @@
-- name: Installing terminator
-  package:
-    name:
-      - terminator
-    extra_args: --noconfirm --needed
-- name: terminator
-  template:
-    dest: $HOME/.config/terminator/config
-    src: config.j2
