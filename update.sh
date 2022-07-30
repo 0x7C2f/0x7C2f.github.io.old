@@ -1,5 +1,6 @@
 #!/bin/sh
 # Update Submodules
+git submodule foreach git pull
 git submodule update --init --recursive
 
 # Check if _site exists (Used for neocities push while on phone.)
