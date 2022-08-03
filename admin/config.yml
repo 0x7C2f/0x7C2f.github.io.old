@@ -1,6 +1,11 @@
 backend:
   name: github
   repo: 0x7C2f/0x7C2f.github.io
+  branch: main
+  api_root: https://api.github.com
+  site_domain: cms.netlify.com
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 media_folder: "assets"
 
