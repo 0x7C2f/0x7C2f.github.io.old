@@ -7,10 +7,17 @@
     <title>Content Manager</title>
 </head>
 <!-- Excluding `doctype` and `head` but you should add them -->
+
 <body>
+    <!-- Add these scripts to the bottom of the body -->
+    <script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@^16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/netlify-cms-app/dist/netlify-cms-app.js"></script>
+
     <!-- Initialize the CMS -->
-    <script type="module" src="scripts/cms_initialize.js"></script>
-    
+    <script>
+        NetlifyCmsApp.init();
+    </script>
 </body>
 
 </html>
