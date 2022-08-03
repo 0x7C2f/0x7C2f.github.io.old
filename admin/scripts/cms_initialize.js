@@ -1,3 +1,3 @@
-import CMS from "../backend/netlify-cms-app/src";
+import CMS from 'netlify-cms-app';
 
-CMS.init
+CMS.init();
