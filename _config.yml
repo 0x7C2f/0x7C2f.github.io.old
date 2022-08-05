@@ -5,7 +5,6 @@ plugins:
   - jekyll-mentions
   - jekyll-compose
   - jekyll-redirect-from
-
 header_pages:
   - index.md
   - pages/mirrors.md
@@ -25,3 +24,12 @@ footer:
   - '|'
   - '<a href="/changelog/index.html">Changelog</a>'
   - '|'
+
+jekyll_manager:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
