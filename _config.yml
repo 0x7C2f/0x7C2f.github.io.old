@@ -5,6 +5,7 @@ plugins:
   - jekyll-mentions
   - jekyll-compose
   - jekyll-redirect-from
+  - jekyll-twitter-plugin
 header_pages:
   - index.md
   - pages/mirrors.md
