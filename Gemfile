@@ -11,5 +11,6 @@ group :jekyll_plugins do
     gem 'jekyll-compose'
     gem 'jekyll-redirect-from'
     gem 'jekyll-twitter-plugin'
+    gem 'git'
 end
 

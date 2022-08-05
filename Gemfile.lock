@@ -50,6 +50,8 @@ GEM
     ffi (1.15.5)
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
+    git (1.11.0)
+      rchardet (~> 1.8)
     github_changelog_generator (1.16.4)
       activesupport
       async (>= 1.25.0)
@@ -131,6 +133,7 @@ GEM
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    rchardet (1.8.0)
     rexml (3.2.5)
     rouge (3.30.0)
     ruby2_keywords (0.0.5)
@@ -154,6 +157,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  git
   github_changelog_generator
   jekyll-compose
   jekyll-feed
