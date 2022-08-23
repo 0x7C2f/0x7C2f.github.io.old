@@ -1,5 +1,5 @@
 plugins:
-  - jekyll-feed
+  - jekyll-feed 
   - github_changelog_generator
   - jekyll-tagging-related_posts
   - jekyll-mentions
@@ -10,6 +10,10 @@ header_pages:
   - pages/mirrors.md
   - pages/links.md
   - pages/dotfiles.md
+  - pages/pdfs.md
+
+include:
+  - "files"
 
 exclude:
   - "update.sh"

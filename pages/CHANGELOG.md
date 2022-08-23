@@ -1,3 +1,9 @@
+---
+layout: page
+title: Changelog
+permalink: /changelog/
+---
+
 ## Unreleased
 
 ### Feat
