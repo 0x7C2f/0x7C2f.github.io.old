@@ -12,6 +12,10 @@ permalink: /changelog/
 
 - Updated update.sh script [\#5](https://github.com/0x7C2f/0x7C2f.github.io/pull/5) ([0x7C2f](https://github.com/0x7C2f))
 
+**Closed issues:**
+
+- Jekyll Twitter Plugin [\#6](https://github.com/0x7C2f/0x7C2f.github.io/issues/6)
+
 **Merged pull requests:**
 
 - renamed:    .github/workflows/update\_changelog.yml -\> .github\[not use… [\#4](https://github.com/0x7C2f/0x7C2f.github.io/pull/4) ([0x7C2f](https://github.com/0x7C2f))
