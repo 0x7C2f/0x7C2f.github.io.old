@@ -7,6 +7,6 @@ then
 fi
 git add .
 cz commit
-cz bump --changelog
+cz bump
 mv CHANGELOG.md pages/CHANGELOG.md
 git push -f

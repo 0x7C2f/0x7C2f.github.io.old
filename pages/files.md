@@ -4,6 +4,7 @@ title: Files
 permalink: /files/
 ---
 
+## PDF Files
 <ul>
 {% for pdf in site.data.pdf %}
   <li>

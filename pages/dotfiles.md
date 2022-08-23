@@ -3,7 +3,7 @@ layout: page
 title: Dotfiles
 permalink: /dotfiles/
 ---
-# My Personal Dotfiles
+# My Personal Dotfiles (WIP)
 <br>
 **WARNING:**
 These files are under constant development to match my personal needs. Use at your own risk.

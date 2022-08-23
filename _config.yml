@@ -10,7 +10,7 @@ header_pages:
   - pages/mirrors.md
   - pages/links.md
   - pages/dotfiles.md
-  - pages/pdfs.md
+  - pages/files.md
 
 include:
   - "files"
