@@ -9,4 +9,4 @@ git add .
 cz commit
 cz changelog
 mv CHANGELOG.md pages/CHANGELOG.md
-git push -f
+#git push -f

@@ -8,6 +8,7 @@ permalink: /changelog/
 
 ### Feat
 
+- **files/pdfs**: added a fils/pdfs directory for PDF files
 - **links.md**: added crimeflare link
 - **github-actions**: created github actions workflow
 - Added Netlify admin page
