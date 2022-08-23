@@ -8,10 +8,10 @@ fi
 git add .
 cz commit
 cz changelog
-echo -n "---
+sed -i -e '1i---
 layout: page
 title: Dotfiles
 permalink: /dotfiles/
----" > CHANGELOG.md
+---\' CHANGELOG.md
 mv CHANGELOG.md pages/CHANGELOG.md
 #git push -f
