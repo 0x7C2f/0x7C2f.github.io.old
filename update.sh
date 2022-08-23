@@ -8,7 +8,7 @@ fi
 git add .
 cz commit
 cz changelog
-echo "---
+echo -n "---
 layout: page
 title: Dotfiles
 permalink: /dotfiles/
