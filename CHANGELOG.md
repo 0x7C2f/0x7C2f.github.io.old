@@ -4,7 +4,7 @@ title: Changelog
 permalink: /changelog/
 ---
 
-## v.. (2022-08-23)
+## 0.11.0 (2022-08-23)
 
 ### Feat
 
