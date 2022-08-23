@@ -1,6 +1,4 @@
 #!/bin/sh
-git submodule foreach git pull
-git submodule update --init --recursive
 
 if [ -d "_site" ];
 then
