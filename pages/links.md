@@ -12,6 +12,7 @@ permalink: /links/
 - [uBlock](https://github.com/gorhill/uBlock)
 - [Prism Break](https://prism-break.org/)
 - [justwhatsthedata](https://justwhatsthedata.github.io/)
+- [crimeflare](http://crimeflare.eu.org)
 
 # Video
 - [ReVanced](https://github.com/revanced)
