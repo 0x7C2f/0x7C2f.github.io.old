@@ -4,7 +4,13 @@ title: Changelog
 permalink: /changelog/
 ---
 
-## Unreleased
+## 0.12.0 (2022-08-23)
+
+### Feat
+
+- **files.md**: Page updates
+
+## 0.11.0 (2022-08-23)
 
 ### Feat
 

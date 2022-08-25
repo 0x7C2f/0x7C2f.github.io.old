@@ -5,6 +5,7 @@ plugins:
   - jekyll-mentions
   - jekyll-compose
   - jekyll-redirect-from
+
 header_pages:
   - index.md
   - pages/mirrors.md
@@ -28,3 +29,7 @@ footer:
   - '|'
   - '<a href="/changelog/index.html">Changelog</a>'
   - '|'
+
+paginate: 5
+
+paginate_path: "/CHANGELOG/page:num/"
