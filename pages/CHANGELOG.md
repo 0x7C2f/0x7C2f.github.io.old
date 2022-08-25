@@ -4,6 +4,12 @@ title: Changelog
 permalink: /changelog/
 ---
 
+## 0.14.1 (2022-08-25)
+
+### Fix
+
+- **pdf.yml**: Added Google-Reference-Guide.pdf to the pdf.yml file
+
 ## 0.14.0 (2022-08-25)
 
 ### Feat
