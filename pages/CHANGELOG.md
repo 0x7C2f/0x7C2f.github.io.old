@@ -4,6 +4,12 @@ title: Changelog
 permalink: /changelog/
 ---
 
+## 0.14.2 (2022-08-25)
+
+### Perf
+
+- **Google-Reference-Guide.pdf**: uploaded (what I think is) a better Google search reference guide
+
 ## 0.14.1 (2022-08-25)
 
 ### Fix
