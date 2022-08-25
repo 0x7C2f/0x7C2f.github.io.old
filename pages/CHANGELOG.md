@@ -4,6 +4,16 @@ title: Changelog
 permalink: /changelog/
 ---
 
+## 0.14.0 (2022-08-25)
+
+### Feat
+
+- **Google-Reference-Guide.pdf**: Added Google Search Operators reference pdf guide
+
+### Refactor
+
+- removed blank post
+
 ## 0.12.0 (2022-08-23)
 
 ### Feat
