@@ -15,6 +15,7 @@ header_pages:
 
 include:
   - "files"
+  - "scripts"
 
 exclude:
   - "update.sh"
