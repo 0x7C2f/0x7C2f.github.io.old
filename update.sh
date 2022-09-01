@@ -8,8 +8,8 @@ fi
 git add .
 cz commit
 cz bump
-if [ -f "CHANGELOG.md" ];
-then
-    mv CHANGELOG.md pages/CHANGELOG.md
-fi
+#if [ -f "CHANGELOG.md" ];
+#then
+#    mv CHANGELOG.md pages/CHANGELOG.md
+#fi
 git push -f
