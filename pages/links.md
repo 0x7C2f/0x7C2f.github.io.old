@@ -13,6 +13,7 @@ permalink: /links/
 - [Prism Break](https://prism-break.org/)
 - [justwhatsthedata](https://justwhatsthedata.github.io/)
 - [crimeflare](http://crimeflare.eu.org)
+- [kycnotme](https://kycnot.me/)
 
 # Video
 - [ReVanced](https://github.com/revanced)

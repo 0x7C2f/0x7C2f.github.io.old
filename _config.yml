@@ -22,6 +22,17 @@ exclude:
   - "jekyll-theme-console.gemspec"
   - "Rakefile"
   - "vendor/bundle"
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
 
 footer: 
   - 'follow on <a href="https://twitter.com/0x7C2f">Twitter</a>'
