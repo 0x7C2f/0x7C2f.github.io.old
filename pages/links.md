@@ -7,13 +7,14 @@ permalink: /links/
 # AI
 -  [Craiyon](https://www.craiyon.com/)
 
-# Privacy
+# Privacy & Security
 - [digdeeper](https://digdeeper.club/)
 - [uBlock](https://github.com/gorhill/uBlock)
 - [Prism Break](https://prism-break.org/)
 - [justwhatsthedata](https://justwhatsthedata.github.io/)
 - [crimeflare](http://crimeflare.eu.org)
 - [kycnotme](https://kycnot.me/)
+- [nosystemd](https://nosystemd.org/)
 
 # Video
 - [ReVanced](https://github.com/revanced)
