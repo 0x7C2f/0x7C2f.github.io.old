@@ -2,17 +2,24 @@
 title: Links
 layout: page
 permalink: /links/
+lastmod: 2022-09-14T21:04:46.005Z
 ---
 
 # Webring
 ---
-<div display=table>
-    <div float="left">
-     <img src="/images/webring/digdeeper.png">
-    </div>
-    <div float="left">
-     <img src="/images/webring/decentralize.png">
-    </div>
+<div display="flex">
+<a href="https://digdeeper.club/">
+<img src="/images/webring/digdeeper.png">
+</a>
+<a href="https://letsdecentralize.org/">
+<img width=83px heigh=31px src="/images/webring/decentralize.png">
+</a>
+<a href="https://beparanoid.de/">
+<img width=83px heigh=31px src="/images/webring/paranoid.gif">
+</a>
+<a href="http://abrx6wcpzkfpwxb5eb2wsra2wnkrv2macdtkpnrepswodz5jxd4schyd.onion/">
+<img width=83px heigh=31px src="/images/webring/shadow-wiki.png">
+</a>
 </div>
 ---
 # AI
