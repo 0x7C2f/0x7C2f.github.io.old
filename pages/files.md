@@ -5,6 +5,7 @@ permalink: /files/
 ---
 
 ## PDF Files
+---
 <ul>
 {% for pdf in site.data.pdfs %}
   <li>

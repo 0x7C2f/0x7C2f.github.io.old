@@ -4,6 +4,15 @@ layout: page
 permalink: /links/
 ---
 
+# Webring
+---
+
+ <p float="left"> 
+     <img src="images/webring/digdeeper.png"/> 
+     <img src="images/webring/decentralize.png">
+ </p> 
+ 
+---
 # AI
 -  [Craiyon](https://www.craiyon.com/)
 
@@ -20,7 +29,20 @@ permalink: /links/
 - [ReVanced](https://github.com/revanced)
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube)
 - [NewPipe](https://github.com/TeamNewPipe/NewPipe)
+- 
 
 # Audio
-
 - [xManager](https://github.com/xManager-v2/xManager-Spotify)
+
+# File Upload Sites
+- [anonfiles](https://anonfiles.com/)
+- [letsupload](https://letsupload.cc/)
+- [filechan](https://filechan.org/)
+- [Share-Online](https://share-online.is/)
+- [MegaUpload](https://megaupload.nz/)
+- [MYfile](https://myfile.is/)
+- [vShare](https://vshare.is/)
+- [hotfile](https://hotfile.io/)
+- [rapidshare](https://rapidshare.nu/)
+- [upvid](https://upvid.cc/)
+- [lolabits](https://lolabits.se/)
