@@ -2,7 +2,7 @@
 title: Links
 layout: page
 permalink: /links/
-lastmod: 2022-09-14T21:04:46.005Z
+lastmod: 2022-09-14T21:08:38.762Z
 ---
 
 # Webring
@@ -19,6 +19,9 @@ lastmod: 2022-09-14T21:04:46.005Z
 </a>
 <a href="http://abrx6wcpzkfpwxb5eb2wsra2wnkrv2macdtkpnrepswodz5jxd4schyd.onion/">
 <img width=83px heigh=31px src="/images/webring/shadow-wiki.png">
+</a>
+<a href="https://sizeof.cat">
+<img width=83px heigh=31px src="/images/webring/sizeofcat.png">
 </a>
 </div>
 ---
