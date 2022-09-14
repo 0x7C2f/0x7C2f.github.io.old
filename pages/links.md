@@ -6,12 +6,14 @@ permalink: /links/
 
 # Webring
 ---
-
- <p float="left"> 
-     <img src="images/webring/digdeeper.png"/> 
-     <img src="images/webring/decentralize.png">
- </p> 
- 
+<div display=table>
+    <div float="left">
+     <img src="/images/webring/digdeeper.png">
+    </div>
+    <div float="left">
+     <img src="/images/webring/decentralize.png">
+    </div>
+</div>
 ---
 # AI
 -  [Craiyon](https://www.craiyon.com/)
@@ -29,7 +31,7 @@ permalink: /links/
 - [ReVanced](https://github.com/revanced)
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube)
 - [NewPipe](https://github.com/TeamNewPipe/NewPipe)
-- 
+-
 
 # Audio
 - [xManager](https://github.com/xManager-v2/xManager-Spotify)
