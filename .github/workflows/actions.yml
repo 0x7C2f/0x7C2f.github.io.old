@@ -17,7 +17,7 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 16
-    - run: npm build
+    - run: npm run build
 # REPO DEPLOY START
   repo-deploy:
     needs: repo-build
