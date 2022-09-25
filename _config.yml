@@ -1,4 +1,3 @@
-destination: docs/
 plugins:
   - jekyll-feed 
   - github_changelog_generator
