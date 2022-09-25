@@ -5,3 +5,5 @@ _site
 .jekyll-cache
 .env
 node_modules
+.obsidian
+.trash
