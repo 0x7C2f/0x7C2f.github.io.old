@@ -51,7 +51,7 @@ lastmod: 2022-09-14T21:08:38.762Z
 - [filechan](https://filechan.org/)
 - [Share-Online](https://share-online.is/)
 - [MegaUpload](https://megaupload.nz/)
-- [MYfile](https://myfile.is/)
+- [MyFile](https://myfile.is/)
 - [vShare](https://vshare.is/)
 - [hotfile](https://hotfile.io/)
 - [rapidshare](https://rapidshare.nu/)
