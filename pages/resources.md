@@ -1,7 +1,7 @@
 ---
-title: Links
+title: Resources
 layout: page
-permalink: /links/
+permalink: /resources/
 lastmod: 2022-09-14T21:08:38.762Z
 ---
 
