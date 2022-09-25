@@ -5,7 +5,9 @@ permalink: /links/
 ---
 # Links
 ---
-![[paranoid.gif]]
+
+![[images/webring/paranoid.gif]]
+
 <div display="flex">
 <a href="https://digdeeper.club/">
 <img src="/images/webring/digdeeper.png">
