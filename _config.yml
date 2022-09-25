@@ -9,6 +9,7 @@ plugins:
 header_pages:
   - index.md
   - pages/resources.md
+  - pages/links.md
   - pages/files.md
 
 include:
