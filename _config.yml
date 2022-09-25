@@ -8,9 +8,7 @@ plugins:
 
 header_pages:
   - index.md
-  - pages/mirrors.md
-  - pages/links.md
-  - pages/dotfiles.md
+  - pages/resources.md
   - pages/files.md
 
 include:
