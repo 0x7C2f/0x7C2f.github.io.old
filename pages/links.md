@@ -41,7 +41,6 @@ lastmod: 2022-09-14T21:08:38.762Z
 - [ReVanced](https://github.com/revanced)
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube)
 - [NewPipe](https://github.com/TeamNewPipe/NewPipe)
--
 
 # Audio
 - [xManager](https://github.com/xManager-v2/xManager-Spotify)
