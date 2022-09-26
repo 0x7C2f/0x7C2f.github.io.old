@@ -5,9 +5,6 @@ permalink: /links/
 ---
 # Links
 ---
-{% assign image_files = site.static_files | where: "image", true %}
-{% for myimage in image_f
-
 
 <div display="flex">
 <a href="https://digdeeper.club/">
@@ -25,7 +22,7 @@ src="/images/decentralize.png">
 <img width=83px height=31px src="/images/shadow-wiki.png">
 </a>
 <a href="https://sizeof.cat">
-<img width=83px height=31px src="/images/webring/sizeofcat.png">
+<img width=83px height=31px src="/images/sizeofcat.png">
 </a>
 <a href="https://yesterweb.org">
 <img width=83px height=31px
