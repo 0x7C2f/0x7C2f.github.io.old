@@ -11,23 +11,19 @@ permalink: /links/
 <img src="/images/webring/digdeeper.png">
 </a>
 <a href="https://letsdecentralize.org/">
-<img width=83px heigh=31px src="/images/webring/decentralize.png">
+<img width=83px height=31px src="/images/webring/decentralize.png">
 </a>
 <a href="https://beparanoid.de/">
-<img width=83px heigh=31px src="/images/webring/paranoid.gif">
+<img width=83px height=31px src="/images/webring/paranoid.gif">
 </a>
 <a href="http://abrx6wcpzkfpwxb5eb2wsra2wnkrv2macdtkpnrepswodz5jxd4schyd.onion/">
-<img width=83px heigh=31px src="/images/webring/shadow-wiki.png">
+<img width=83px height=31px src="/images/webring/shadow-wiki.png">
 </a>
 <a href="https://sizeof.cat">
-<img width=83px heigh=31px src="/images/webring/sizeofcat.png">
+<img width=83px height=31px src="/images/webring/sizeofcat.png">
 </a>
+<a href="https://yester"
+<img width=83px height=31px>
+src="/images/webring/yesterweb.png">
 </div>
 
-
-![dig deeper][1]
-
-
-
-
-[1]: images/webrings/digdeepee.
