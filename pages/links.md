@@ -29,4 +29,3 @@ src="/images/webring/decentralize.png">
 src="/images/webring/yesterweb.png">
 </a>
 </div>
-
