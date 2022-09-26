@@ -23,3 +23,11 @@ permalink: /links/
 <img width=83px heigh=31px src="/images/webring/sizeofcat.png">
 </a>
 </div>
+
+
+![dig deeper][1]
+
+
+
+
+[1]: images/webrings/digdeepee.
