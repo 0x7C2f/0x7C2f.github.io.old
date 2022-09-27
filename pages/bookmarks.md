@@ -39,6 +39,7 @@ lastmod: 2022-09-14T21:08:38.762Z
 - [upvid](https://upvid.cc/)
 - [lolabits](https://lolabits.se)
 
+***
 <div display="flex">
 <a href="https://digdeeper.club/">
 <img width=83px height=31px
@@ -61,5 +62,16 @@ src="/images/decentralize.png">
 <img width=83px height=31px
 src="/images/yesterweb.png">
 </a>
+<a href="http://abrx6wcpzkfpwxb5eb2wsra2wnkrv2macdtkpnrepswodz5jxd4schyd.onion/">
+<img width=83px height=31px src="/images/shadow-wiki.png">
+</a>
+<a href="https://sizeof.cat">
+<img width=83px height=31px src="/images/sizeofcat.png">
+</a>
+<a href="https://protonmail.com/">
+<img width=83px height=31px
+src="/images/protonmail.png">
+</a>
+
 </div>
 
