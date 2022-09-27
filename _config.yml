@@ -8,8 +8,7 @@ plugins:
 
 header_pages:
   - index.md
-  - pages/resources.md
-  - pages/links.md
+  - pages/bookmarks.md
   - pages/files.md
 
 include:
