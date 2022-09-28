@@ -22,14 +22,19 @@ permalink: /bookmarks/
 - [rapidshare](https://rapidshare.nu/)
 -  [upvid](https://upvid.cc/)
 - [lolabits](https://lolabits.se)
+
 # Privacy & Security
+## Blogs
 - [digdeeper](https://digdeeper.club/)
-- [uBlock](https://github.com/gorhill/uBlock)
 - [Prism Break](https://prism-break.org/)
 - [justwhatsthedata](https://justwhatsthedata.github.io/)
 - [crimeflare](http://crimeflare.eu.org)
 - [kycnotme](https://kycnot.me/)
 - [nosystemd](https://nosystemd.org/)
+## Browsers
+[Librefox](https://librefox.org)
+- [uBlock](https://github.com/gorhill/uBlock)
+
 
 # Video
 - [ReVanced](https://github.com/revanced)
