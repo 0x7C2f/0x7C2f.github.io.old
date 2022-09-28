@@ -9,7 +9,6 @@ permalink: /bookmarks/
 #  Audio
 - [xManager](https://github.com/xManager-v2/xManager-Spotify)
 - [iPod](https://tannerv.com/ipod/)
- [NewPipe](https://github.com/TeamNewPipe/NewPipe)
 
 # File Upload Sites
 - [anonfiles](https://anonfiles.com/)
@@ -35,7 +34,8 @@ permalink: /bookmarks/
 # Video
 - [ReVanced](https://github.com/revanced)
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube)
-
+- [Default File Name TV](https://default-filename-tv.neocities.org/)
+- [NewPipe](https://github.com/TeamNewPipe/NewPipe)
 ***
 <div display="flex">
 <a href="https://digdeeper.club/">
