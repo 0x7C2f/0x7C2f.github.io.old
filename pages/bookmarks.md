@@ -32,9 +32,11 @@ permalink: /bookmarks/
 - [kycnotme](https://kycnot.me/)
 - [nosystemd](https://nosystemd.org/)
 ## Browsers
-[Librefox](https://librefox.org)
+- [Librewolf](https://librewolf.net/)
+- [Mull]()
+### Extensions
 - [uBlock](https://github.com/gorhill/uBlock)
-
+- [Skip Redirect](https://github.com/sblask/webextension-skip-redirect)
 
 # Video
 - [ReVanced](https://github.com/revanced)
