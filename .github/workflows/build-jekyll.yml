@@ -34,8 +34,9 @@ jobs:
       - name: Install deps and build
         run: |
           npm i
-      - uses: bcomnes/deploy-to-neocities@v1
+      - name: Deploy to Neocities
+        uses: jonchang/deploy-neocities@master
         with:
-          api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
-          cleanup: false
-          dist_dir: /
+          key: ${{ secrets.NEOCITIES_API_KEY }}
+          dir: /
+          clean: false
