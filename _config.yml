@@ -20,16 +20,6 @@ exclude:
   - "jekyll-theme-console.gemspec"
   - "Rakefile"
   - "vendor/bundle"
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 
 footer: 
@@ -39,7 +29,3 @@ footer:
   - '|'
 #  - '<a href="/changelog/index.html">Changelog</a>'
 #  - '|'
-
-paginate: 5
-
-paginate_path: "/CHANGELOG/page:num/"
