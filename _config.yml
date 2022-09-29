@@ -1,3 +1,9 @@
+defaults:
+  - scope:
+      path: "images/memes"
+    values:
+      image: true
+
 plugins:
   - jekyll-feed 
   - github_changelog_generator
@@ -9,6 +15,7 @@ plugins:
 header_pages:
   - index.md
   - pages/bookmarks.md
+  - pages/memes.md
   - pages/files.md
 
 include:
