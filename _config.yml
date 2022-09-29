@@ -15,7 +15,7 @@ plugins:
 header_pages:
   - index.md
   - pages/bookmarks.md
-  - pages/memes.md
+  - pages/gallery.md
   - pages/files.md
 
 include:
