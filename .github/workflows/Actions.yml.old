@@ -1,0 +1,40 @@
+name: RepoSync
+
+on:
+  - push
+  - delete
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout action gitbooks
+      uses: actions/checkout@v2
+    - name: Gitbook Action
+      uses: ZanderZhao/gitbook-action@v1.2.4
+      with:
+        token: ${{ secrets.PERSONAL_TOKEN }}
+    - name: Checkout gh-pages
+      uses: actions/checkout@v2
+      with:
+        ref: gh-pages
+        fetch-depth: 0
+    - name: Setup Nodejs
+      uses: actions/setup-node@v3
+      with:
+        node-version: lts/*
+    - name: Install deps and build
+      run: |
+        npm i --force
+        npm run build
+    - name: GitLab Push
+      uses: wangchucheng/git-repo-sync@v0.1.0
+      with:
+        target-url: ${{ secrets.TARGET_URL }}
+        target-username: ${{ secrets.TARGET_USERNAME }}
+        target-token: ${{ secrets.TARGET_TOKEN }}
+    - name: Neocities Push
+      uses: bcomnes/deploy-to-neocities@v1
+      with:
+        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+        cleanup: false
+        dist_dir: /
