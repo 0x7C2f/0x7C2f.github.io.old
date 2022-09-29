@@ -34,7 +34,6 @@ jobs:
       - name: Install deps and build
         run: |
           npm i
-          npm run build
       - uses: bcomnes/deploy-to-neocities@v1
         with:
           api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
