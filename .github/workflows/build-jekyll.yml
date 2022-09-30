@@ -39,5 +39,5 @@ jobs:
         uses: jonchang/deploy-neocities@master
         with:
           key: ${{ secrets.NEOCITIES_API_KEY }}
-          dir: /home/runner/work/0x7C2f.github.io/0x7C2f.github.io/
+          dir: .
           clean: false
