@@ -28,13 +28,6 @@ jobs:
           cname: ''
           actor: ''
           pre_build_commands: ''
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - name: Install deps and build
-        run: |
-          npm i
-          pwd
       - name: Deploy to Neocities
         uses: jonchang/deploy-neocities@master
         with:
