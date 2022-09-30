@@ -40,4 +40,4 @@ jobs:
         with:
           key: ${{ secrets.NEOCITIES_API_KEY }}
           dir: build
-          clean: false
+          clean: clean
