@@ -34,6 +34,7 @@ jobs:
       - name: Install deps and build
         run: |
           npm i
+          ls
       - name: Deploy to Neocities
         uses: jonchang/deploy-neocities@master
         with:
