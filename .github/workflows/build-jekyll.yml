@@ -38,5 +38,5 @@ jobs:
         uses: jonchang/deploy-neocities@master
         with:
           key: ${{ secrets.NEOCITIES_API_KEY }}
-          dir: /
+          dir: gh-pages
           clean: false
