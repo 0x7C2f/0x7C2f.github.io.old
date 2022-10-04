@@ -17,6 +17,7 @@ header_pages:
   - pages/bookmarks.md
   - pages/gallery.md
   - pages/files.md
+  - startpage
 
 include:
   - "files"
@@ -34,3 +35,4 @@ footer:
   - '|'
   - '<a href="feed.xml">RSS Feed</a>'
   - '|'
+  - '<a href="https://0x7c2f.github.io/startpage/">Startpage</a>'
