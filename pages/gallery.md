@@ -1,5 +1,7 @@
 ---
-Title: Gallery
-Layout: gallery
-Permalink: /gallery/
+title: Gallery
+layout: gallery
+permalink: /gallery/
 ---
+
+## Memes
