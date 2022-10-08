@@ -3,19 +3,19 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self'; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; media-src 'self'; object-src 'self'; child-src 'self'; form-action 'none'; base-uri 'self'" />
 <meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
 <meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
-<link rel="stylesheet" type="text/css" href="{{ "/assets/gallery.css" | relative_url }}">
+{%- include head.html -%}
 <body>
   <div class="container">
     {%- include header.html -%}
     <main>
       {{ title }}
-      <div class="gallery">
-      <a>
-      {% assign memes = site.static_files | where: "image", true %}
-      {% for meme in memes %}
-        <img src="{{ meme.path }}">
-      {% endfor %}
-      </a>
+      <div class="video">
+        {% for video in site.data.videos %}
+        <ul>
+          {{ video.title }}
+          <iframe width="100%" height="500" src="{{ video.link }}?autoplay=1?controls=0"></iframe>
+        </ul>
+        {% endfor %}
       </div>
     </main>
     {%- include footer.html -%}
