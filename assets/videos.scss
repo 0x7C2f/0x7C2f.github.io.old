@@ -1,0 +1,11 @@
+---
+# Videos theme
+---
+.videos {
+    display: flex; /* or inline-flex */
+}
+@media only screen and (max-width: 600px) {
+    .videos {
+        display: block; /* or inline-flex */
+    }
+}
