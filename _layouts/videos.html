@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self'; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; media-src 'self'; object-src 'self'; child-src 'self'; form-action 'none'; base-uri 'self'" />
 <meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
 <meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
 {%- include head.html -%}
@@ -12,8 +11,7 @@
       <div class="video">
         {% for video in site.data.videos %}
         <ul>
-          {{ video.title }}
-          <iframe width="100%" height="500" src="{{video.link}}?autoplay=1?controls=0"></iframe>
+          <iframe width="100%" height="500" src="https://y.com.sb/embed/{{video.link}}"></iframe>
         </ul>
         {% endfor %}
       </div>
