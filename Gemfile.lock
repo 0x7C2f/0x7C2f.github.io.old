@@ -111,7 +111,7 @@ GEM
     minitest (5.16.2)
     multi_json (1.15.0)
     nio4r (2.5.8)
-    nokogiri (1.13.8-x86_64-linux)
+    nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
     octokit (4.25.1)
       faraday (>= 1, < 3)
