@@ -5,6 +5,7 @@ permalink: /bookmarks/
 ---
 # AI
 -  [Craiyon](https://www.craiyon.com/)
+-  [Jailbreakchat](https://www.jailbreakchat.com/)
 
 #  Audio
 - [xManager](https://github.com/xManager-v2/xManager-Spotify)
