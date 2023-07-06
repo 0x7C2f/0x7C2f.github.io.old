@@ -1,0 +1,18 @@
+{%- include head.html -%}
+<body>
+  <div class="container">
+    {%- include header.html -%}
+    <main>
+      {{ title }}
+      <div class="bookmarks">
+        {% for link in site.data.bookmarks %}
+        <ul>
+          <a src="https://www.{{link.url}}"></a>
+        </ul>
+        {% endfor %}
+      </div>
+    </main>
+    {%- include footer.html -%}
+    </div>
+  </body>
+</html>
