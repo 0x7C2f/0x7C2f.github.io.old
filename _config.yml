@@ -17,12 +17,12 @@ header_pages:
   - pages/bookmarks.md
   - pages/gallery.md
   - pages/files.md
+  - pages/scripts.md
   - pages/videos.md
 
 include:
   - "files"
-  - "scripts"
-
+  
 exclude:
   - "update.sh"
   - "jekyll-theme-console.gemspec"
