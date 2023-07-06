@@ -1,8 +1,7 @@
 ---
 title: Bookmarks
-layout: page
+layout: bookmarks
 permalink: /bookmarks/
-description: "Test Description"
 ---
 # AI
 -  [Craiyon](https://www.craiyon.com/)
