@@ -27,6 +27,7 @@ description: "Test Description"
 
 # Privacy & Security
 ## Blogs
+- [DimDen](https://dimden.dev/)
 - [digdeeper](https://digdeeper.club/)
 - [sizeof.cat](https://sizeof.cat/)
 - [Prism Break](https://prism-break.org/)
