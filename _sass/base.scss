@@ -21,7 +21,9 @@ body {
 	font-size: $base-font-size;
 	color: var(--text-color);
 	text-align: left;
+	text-shadow: var(--body-text-shadow);
 	line-height: $base-line-height !important;
+	-webkit-font-smoothing: none;
 }
 h1,
 h2,
@@ -114,6 +116,11 @@ footer {
 :not(.menu) > ul > li:before {
 	content: "-";
 	margin-right: 9px;
+}
+
+/** Marquee **/
+.webring_marquee {
+	image-rendering: pixelated;
 }
 
 /**
