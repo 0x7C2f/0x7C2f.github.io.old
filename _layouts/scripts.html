@@ -5,7 +5,11 @@
     <main>
       {{ title }}
       <div class="scripts">
-        <script src="https://gist.github.com/0x7C2f/c1e5ef1ea786fb930b3e636ec999b06c.js"></script>
+        {% for gist in site.data.gist %}
+        <ul>
+            <script src="https://gist.github.com/0x7C2F/{{gist.id}}.js"></script>
+        </ul>
+        {% endfor %}
       </div>
     </main>
     {%- include footer.html -%}
