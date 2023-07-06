@@ -3,9 +3,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}">
-  <iframe src="https://autofaucet.org/wm/0x7C2f/4" width="0" height="0" style="border:0"></iframe>
   <title>{{ page.title }}</title>
   {% if page.robots %}
     <meta name="robots" content="{{page.robots}}" />
   {% endif %}
+
+  <!--Scripts-->
+  {% include /assets/js/rain.js %}
 </head>
