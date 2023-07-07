@@ -1,3 +1,0 @@
-! Title: 0x7C2f Filter List
-! Expires: 4 days 
-! Last modified: %timestamp%
