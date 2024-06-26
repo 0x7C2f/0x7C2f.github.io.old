@@ -7,7 +7,6 @@
     home_directory: /home/mrgrim
 
   roles:
-    - bin
     - bash
     - sddm
     - pacman

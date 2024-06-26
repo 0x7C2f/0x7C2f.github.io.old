@@ -8,4 +8,4 @@ cron_jobs:
     month: "*"
     weekday: "*"
     user: "ansible"
-    job: "ansible-pull -o -U https://github.com/0x7C2f/setup.git"
+    job: "ansible-pull -o -U https://github.com/0x7C2f/0x7C2f.github.io.git setup/local.yml"
