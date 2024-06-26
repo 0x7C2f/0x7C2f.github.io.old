@@ -6,21 +6,6 @@
     ansible_user: mrgrim
     home_directory: /home/mrgrim
 
-  roles:
-    - bash
-    - sddm
-    - pacman
-    - ansible_user
-    - systemd
-    - cron
-    - i3
-    - dunst
-    - alacritty
-    - feh
-    - firefox
-    - thunar
-    - ruby
-    - python
 
   tasks:
     - name: Install Common packages
