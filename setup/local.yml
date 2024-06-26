@@ -4,7 +4,7 @@
   become: true
 
 - name: Desktop Configuration
-  import_playbook: playbooks/desktop.yml
+  import_playbook: desktop.yml
   when: ansible_hostname == 'desktop'
 
 - name: Laptop Configuration
