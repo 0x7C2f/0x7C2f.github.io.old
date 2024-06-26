@@ -1,5 +1,0 @@
----
-- name: Test polybar role
-  hosts: localhost
-  roles:
-    - polybar

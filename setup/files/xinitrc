@@ -1,8 +1,0 @@
-#!/bin/sh
-
-if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
-  exec startx
-  ~/.config/polybar/launch.sh &
-fi
-# Set the background wallpaper randomly from ~/.wallpapers folder
-#feh --no-fehbg --randomize --bg-fill .wallpapers

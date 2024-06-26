@@ -1,6 +1,0 @@
----
-- name: Installing NodeJS Packages
-  community.general.npm:
-    name:
-    - 
-    global: yes

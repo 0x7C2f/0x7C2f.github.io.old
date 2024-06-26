@@ -1,4 +1,0 @@
----
-- name: restart polybar
-  command: pkill polybar
-  ignore_errors: yes

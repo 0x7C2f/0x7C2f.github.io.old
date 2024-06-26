@@ -1,5 +1,0 @@
-- name: Installing feh
-  package:
-    name:
-      - feh
-    extra_args: --noconfirm --needed

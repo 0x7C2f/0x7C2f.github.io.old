@@ -1,5 +1,0 @@
-- name: Installing cowsay
-  package:
-    name:
-      - cowsay
-    extra_args: --noconfirm --needed

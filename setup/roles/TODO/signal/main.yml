@@ -1,5 +1,0 @@
-- name: Installing Signal
-  package:
-    name:
-      - signal-desktop
-    extra_args: --noconfirm --needed

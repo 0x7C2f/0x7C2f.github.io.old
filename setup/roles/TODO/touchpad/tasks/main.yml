@@ -1,4 +1,0 @@
-- name: Enabling Natural Scrolling
-  template:
-    dest: /etc/X11/xorg.conf.d/30-touchpad.conf
-    src: 30-touchpad.j2

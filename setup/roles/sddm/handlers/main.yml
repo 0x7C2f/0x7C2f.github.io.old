@@ -1,5 +1,0 @@
----
-- name: restart sddm
-  service:
-    name: "{{ sddm_service }}"
-    state: restarted
