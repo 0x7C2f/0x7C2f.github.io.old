@@ -1,0 +1,17 @@
+---
+- name: Install SDDM package
+  ansible.builtin.package:
+    name: "{{ sddm_package }}"
+    state: present
+
+- name: Configure SDDM
+  ansible.builtin.template:
+    src: sddm.conf.j2
+    dest: "{{ sddm_conf }}"
+  notify: restart sddm
+
+- name: Ensure SDDM is enabled and started
+  ansible.builtin.service:
+    name: "{{ sddm_service }}"
+    enabled: true
+    state: started

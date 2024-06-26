@@ -1,0 +1,13 @@
+- name: Installing Python Packages
+  package:
+    name:
+      - python
+      - python-pip
+      - Commitizen
+    extra_args: --noconfirm --needed
+#- name: Installing Pip Packages
+#  ansible.builtin.pip:
+#    name: 
+#      - pywal
+#      - radicale_storage_decsync
+# sudo activate-global-python-argcomplete

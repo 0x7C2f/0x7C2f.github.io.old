@@ -1,0 +1,11 @@
+---
+cron_package_name: cronie
+cron_jobs:
+  - name: "ansible-pull"
+    minute: "*/10"
+    hour: "*"
+    day: "*"
+    month: "*"
+    weekday: "*"
+    user: "ansible"
+    job: "ansible-pull -o -U https://github.com/0x7C2f/setup.git"

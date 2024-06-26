@@ -1,0 +1,5 @@
+---
+- name: Test cron role
+  hosts: localhost
+  roles:
+    - cron

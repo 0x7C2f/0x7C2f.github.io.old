@@ -1,0 +1,10 @@
+#- name: Installing android-tools
+ # package:
+ #   name:
+ #     - android-tools
+ #   extra_args: --noconfirm --needed
+
+
+
+- name: Neofetch
+  ansible.builtin.shell: 

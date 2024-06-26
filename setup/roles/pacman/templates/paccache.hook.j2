@@ -1,0 +1,12 @@
+# roles/paccache_hook/templates/paccache.hook.j2
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Cleaning up old package cache...
+When = PostTransaction
+Exec = /usr/bin/paccache -r

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+THEME="archlabs"
+
+killall polybar
+while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
+
+CONFIG_DIR=$(dirname $0)/themes/$THEME/config.ini
+
+#polybar main -c $CONFIG_DIR &
+
+
+polybar -q center -c $CONFIG_DIR &
+polybar -q left -c $CONFIG_DIR &
+polybar -q right -c $CONFIG_DIR &
+polybar -q music -c $CONFIG_DIR &
+polybar -q stats -c $CONFIG_DIR &

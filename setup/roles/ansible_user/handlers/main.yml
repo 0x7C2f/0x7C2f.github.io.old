@@ -1,0 +1,5 @@
+---
+- name: restart sudo
+  command: systemctl restart sudo
+  async: 45
+  poll: 0

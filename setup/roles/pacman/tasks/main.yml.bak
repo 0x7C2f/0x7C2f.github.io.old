@@ -1,0 +1,104 @@
+- name: Installing Pacman Packages
+  package:
+    name:
+      - base
+      - cowsay
+      - ansible
+      - cronie
+      - discord
+      - dmenu
+      - dunst
+      - feh
+      - fim
+      - firefox
+      - fuse2
+      - gimp
+      - git-extras
+      - gst-plugin-pipewire
+      - freetube-bin
+      - android-tools
+      - bash-completion
+      - betterdiscord-installer
+      - bitwarden
+      - bluez
+      - bluez-utils
+      - alacritty
+      - pacman-contrib
+      - yay
+      - htop
+      - hub
+      - i3blocks
+      - i3-gaps
+      - i3lock
+      - i3status
+      - intel-ucode
+      - irssi
+      - iwd
+      - kdeconnect
+      - linux-firmware
+      - mariadb
+      - mc
+      - nano
+      - neofetch
+      - nerd-fonts-complete
+      - nerd-fonts-hack
+      - npm
+      - nvidia
+      - nvidia-settings
+      - nvtop
+      - openssh
+      - pacman-contrib
+      - pass
+      - pipewire-alsa
+      - pipewire-pulse
+      - polybar
+      - protonmail-bridge
+      - psi-plus-git
+      - python-pip
+      - rofi
+      - scrot
+      - session-desktop-bin
+      - signal-desktop
+      - smartmontools
+      - spicetify-cli
+      - spotify
+      - spotify-tui
+      - sqlitebrowser
+      - syncthing
+      - terminator
+      - thefuck
+      - thunar
+      - thunderbird
+      - tk
+      - tldr
+      - tor
+      - ttf-font-awesome
+      - unicode
+      - unzip
+      - vi
+      - vim
+      - vscodium-bin
+      - wget
+      - xterm
+      - yarn
+      - yay
+      - python-pywal
+      - torctl
+      - wordlistctl
+      - sploitctl
+    extra_args: --noconfirm --needed
+
+
+
+- name: Create pacman hooks directory
+  file:
+    path: /etc/pacman.d/hooks/
+    state: directory
+
+
+
+
+
+
+
+

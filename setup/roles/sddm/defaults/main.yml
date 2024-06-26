@@ -1,0 +1,4 @@
+---
+sddm_package: sddm
+sddm_service: sddm
+sddm_conf: /etc/sddm.conf

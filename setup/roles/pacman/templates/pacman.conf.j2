@@ -1,0 +1,29 @@
+[options]
+HoldPkg     = pacman glibc
+
+Architecture = auto
+
+Color
+
+VerbosePkgLists
+
+ParallelDownloads=5
+
+ILoveCandy
+
+SigLevel    = Required DatabaseOptional
+
+LocalFileSigLevel = Optional
+
+{{ custom_options | default('') }}
+
+[core]
+Include = /etc/pacman.d/mirrorlist
+
+[extra]
+Include = /etc/pacman.d/mirrorlist
+
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+
+{{ custom_repositories | default('') }}

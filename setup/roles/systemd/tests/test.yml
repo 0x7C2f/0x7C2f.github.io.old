@@ -1,0 +1,5 @@
+---
+- name: Test systemd services role
+  hosts: localhost
+  roles:
+    - systemd

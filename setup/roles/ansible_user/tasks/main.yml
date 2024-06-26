@@ -1,0 +1,14 @@
+---
+- name: Create Ansible user
+  user:
+    name: ansible
+    system: yes
+
+- name: Set Ansible as sudo
+  copy:
+    src: sudoer_ansible
+    dest: /etc/sudoers.d/ansible
+    owner: root
+    group: root
+    mode: '0440'
+  notify: restart sudo

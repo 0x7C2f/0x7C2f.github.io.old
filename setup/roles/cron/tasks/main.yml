@@ -1,0 +1,25 @@
+---
+- name: Install cron package
+  pacman:
+    name: "cronie"
+    state: present
+  become: yes
+
+- name: Ensure cron service is running
+  service:
+    name: cronie
+    state: started
+    enabled: yes
+
+- name: Create cron jobs
+  cron:
+    name: "{{ item.name }}"
+    minute: "{{ item.minute }}"
+    hour: "{{ item.hour }}"
+    day: "{{ item.day }}"
+    month: "{{ item.month }}"
+    weekday: "{{ item.weekday }}"
+    user: "{{ item.user }}"
+    job: "{{ item.job }}"
+  with_items: "{{ cron_jobs }}"
+  notify: restart cron
