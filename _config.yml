@@ -6,7 +6,6 @@ defaults:
 
 plugins:
   - jekyll-feed 
-  - github_changelog_generator
   - jekyll-tagging-related_posts
   - jekyll-mentions
   - jekyll-compose
