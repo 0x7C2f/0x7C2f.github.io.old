@@ -1,9 +1,3 @@
-defaults:
-  - scope:
-      path: "images/memes"
-    values:
-      image: true
-
 plugins:
   - jekyll-feed 
   - jekyll-tagging-related_posts
