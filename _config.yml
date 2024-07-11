@@ -9,6 +9,7 @@ header_pages:
   - index.md
   - pages/bookmarks.md
   - pages/files.md
+  - pages/about.md
 
 include:
   - "files"
