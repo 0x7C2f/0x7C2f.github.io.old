@@ -28,9 +28,3 @@ jobs:
           cname: ''
           actor: ''
           pre_build_commands: ''
-      - name: Deploy to Neocities
-        uses: jonchang/deploy-neocities@master
-        with:
-          key: ${{ secrets.NEOCITIES_API_KEY }}
-          dir: build
-          clean: clean
